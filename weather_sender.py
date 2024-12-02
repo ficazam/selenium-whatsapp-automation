@@ -68,7 +68,7 @@ def sendWhatsappMessages(weatherData, contacts):
 def main():
     launchChrome()
     weatherData = getWeatherData()
-    sendWhatsappMessages(weatherData, ['+507 6781-0007', 'Ale', 'G8', 'Boobs fans club'])
+    sendWhatsappMessages(weatherData, ["enter a list of contacts here.])
 
 if __name__ == '__main__':
     main()
